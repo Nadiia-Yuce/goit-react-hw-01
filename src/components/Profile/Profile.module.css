@@ -1,0 +1,64 @@
+.cardContainer {
+  width: 450px;
+  border: 2.5px solid #222831;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  margin: 30px auto 0 auto;
+}
+
+.userInfo {
+  padding: 20px;
+}
+
+.userImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: #222831;
+  margin-bottom: 10px;
+}
+
+.userName {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+}
+
+.userText {
+  margin: 5px 0;
+  font-size: 30px;
+  color: #808080;
+  line-height: 1.5;
+}
+
+.list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background-color: #d0cfcf;
+  list-style: none;
+}
+
+.item {
+  flex: 1;
+  padding: 15px 0;
+  border-top: 2.5px solid #808080;
+  border-right: 2.5px solid #808080;
+  line-height: 1.5;
+  font-size: 25px;
+  color: #000;
+}
+
+.item:last-child {
+  border-right: none;
+}
+
+.accent {
+  display: block;
+  margin-top: 5px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #000;
+}
