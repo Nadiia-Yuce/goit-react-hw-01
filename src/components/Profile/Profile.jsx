@@ -13,7 +13,7 @@ export default function Profile({
     <div className={css.cardContainer}>
       <div className={css.userInfo}>
         <img className={css.userImg} src={avatar} alt="User avatar" />
-        <p className={css.userName}>{username}</p>{" "}
+        <p className={css.userName}>{username}</p>
         <p className={css.userText}>@{tag}</p>
         <p className={css.userText}>{location}</p>
       </div>
